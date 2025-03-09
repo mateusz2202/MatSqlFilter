@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.Json.Serialization;
 
 namespace MatSqlFilter;
 
@@ -65,7 +66,7 @@ public enum LogicOperator
     Or
 }
 
-
+[JsonConverter(typeof(FilterComponentConverter))]
 public interface IFilterComponent { }
 
 public record Condition(string Column, string Value, string Type) : IFilterComponent;
