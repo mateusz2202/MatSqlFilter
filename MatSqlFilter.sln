@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatSqlFilter", "MatSqlFilter.csproj", "{87FC8FEB-9A65-47E3-BCAD-F0E913C5829F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87FC8FEB-9A65-47E3-BCAD-F0E913C5829F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FC8FEB-9A65-47E3-BCAD-F0E913C5829F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FC8FEB-9A65-47E3-BCAD-F0E913C5829F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FC8FEB-9A65-47E3-BCAD-F0E913C5829F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8921E5A0-CE29-4C41-AC04-CCF514E513B0}
+	EndGlobalSection
+EndGlobal
