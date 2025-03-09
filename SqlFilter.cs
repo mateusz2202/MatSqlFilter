@@ -5,8 +5,13 @@ namespace MatSqlFilter;
 
 public static class SqlFilter
 {
-    public static (bool, string) GenerateFiltr(Filter filter)
-        => GenerateRecursive(filter);
+    public static (bool, string) Generate(Filter filter)
+    {
+        if (filter is null)
+            return (true, "1 = 1");
+        else
+            return GenerateRecursive(filter);
+    }
 
     private static (bool, string) GenerateRecursive(Filter filter)
     {
